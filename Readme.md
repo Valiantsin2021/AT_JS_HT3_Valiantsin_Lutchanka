@@ -39,3 +39,4 @@ The Dropbox account under the test is created for the testing purposes only and 
 3. Install dependencies with "npm install"
 4. To run tests - "npm test"
 5. To integrate with Jenkins - create new Pipeline and choose Pipeline definition "Pipeline script from CSM", repository url "https://github.com/Valiantsin2021/AT_JS_HT3_Valiantsin_Lutchanka.git", branch "master", Script Path "Jenkinsfile"
+6. Postman collection link "https://www.getpostman.com/collections/5e0053c406a75bbf1175"
