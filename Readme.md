@@ -1,15 +1,12 @@
-# JS automation API tests using Postman and Cypress
+# JS automation API tests using Postman CI integration (Jenkins, Github Actions)
 
-## This repository purpose is to perform API positive and negative test automation of DropBox upload, check metadata and delete file features https://www.dropbox.com/
-
-## Report page https://valiantsin2021.github.io/AT_JS_HT2_Valiantsin_Lutchanka/
+## This repository purpose is to perform API positive and negative test automation of DropBox upload, check metadata and delete file features https://www.dropbox.com/ and perform CI integration of tests with Jenkins and Github Actions
 
 The Dropbox account under the test is created for the testing purposes only and is not a private or personal. Authorization credentials provided in tests are for learning purposes only and to provide the possibility to check the automation task accomplishment.
 
 ## Technology used
 
 - Postman (Newman)
-- Cypress 
 
 ## The test suites purpose is to perform the following scenarios:
 
@@ -33,32 +30,12 @@ The Dropbox account under the test is created for the testing purposes only and 
 8.  Pre-request scripts for shared tests for various test cases to save in environmental variables
 9.  Add Jenkins_local_host_log with job results on the local machine
 
-### Cypress
-
-1. Environment variables for tokens and keys
-2. Positive and negative test suites
-3. Constants in a separate file
-4. Mochawesome report
-5. Github Actions yml file
-6. Jenkiinsfile
-7. Response json schema validation for upload, check metadata and delete file scenarios.
-
 ## Setup:
 
-### For Postman tests
+### Postman tests
 
 1. Clone master branch of this repository
 2. Navigate to the folder of cloned repository and run terminal 
 3. Install dependencies with "npm install"
 4. To run tests - "npm test"
-
-### For Cypress tests
-
-1. Clone Cypress branch of this repository
-2. Navigate to the folder of cloned repository and run terminal 
-3. Install dependencies with  "npm install"
-4. To run tests - "npm test"
-
-### To run tests natively in Postman 
-
-1. Import to your Postman workspace the Dropbox-API-upload-download-tests.postman_collection.json and Dropbox.postman_environment.json files from the master branch and run the collection with the corresponding environment
+5. To integrate with Jenkins - create new Pipeline and choose Pipeline definition "Pipeline script from CSM", repository url "https://github.com/Valiantsin2021/AT_JS_HT3_Valiantsin_Lutchanka.git", branch "master", Script Path "Jenkinsfile"
