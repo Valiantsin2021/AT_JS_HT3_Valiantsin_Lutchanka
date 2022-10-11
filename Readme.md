@@ -29,6 +29,7 @@ The Dropbox account under the test is created for the testing purposes only and 
 7.  Response json schema validation for upload, check metadata and delete file scenarios.
 8.  Pre-request scripts for shared tests for various test cases to save in environmental variables
 9.  Add Jenkins_local_host_log with job results on the local machine
+10. Add Jenkins_job_folder with local builds and config
 
 ## Setup:
 
