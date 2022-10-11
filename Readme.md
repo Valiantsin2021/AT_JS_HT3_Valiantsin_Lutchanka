@@ -10,11 +10,23 @@ The Dropbox account under the test is created for the testing purposes only and 
 
 ## The test suites purpose is to perform the following scenarios:
 
-##### 1. Retrieve the OAuth 2.0 token for authorizing API requests and check user and app authorization
-##### 2. Upload the test text file (text.txt) on the Dropbox and check if it is uploaded successfully
-##### 3. Check if the uploaded file Metadata is correct
-##### 4. Delete the uploaded file (text.txt) and check if it is deleted successfully
-##### 5. Perform negative tests for upload, search and delete requests with assertions on wrong endpoints and wrong body/headers data
+1. Retrieve the OAuth 2.0 token for authorizing API requests and check user and app authorization
+2. Upload the test text file (text.txt) on the Dropbox and check if it is uploaded successfully
+3. Check if the uploaded file Metadata is correct
+4. Delete the uploaded file (text.txt) and check if it is deleted successfully
+5. Perform negative tests for upload, search and delete requests with assertions on wrong endpoints and wrong body/headers data
+
+## Criteria for evaluation:
+
+1. Written tests covering all 3 endpoints 
+2. Tests are green and passing (there are valid checks at the end of each test)
+3. Tests pass on Jenkins - this is part of the CI assessment
+
+## Attach links to:
+
+1. Git hub repository with tests
+2. Jenkins build
+3. Postman collection
 
 ## Job done:
     
