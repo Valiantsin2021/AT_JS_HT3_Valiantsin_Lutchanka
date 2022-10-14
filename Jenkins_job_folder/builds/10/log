@@ -1,0 +1,21 @@
+Started by timer
+Started by timer
+hudson.plugins.git.GitException: Command "C:\Program Files\Git\bin\git.exe fetch --tags --force --progress --prune -- origin +refs/heads/master:refs/remotes/origin/master" returned status code 128:
+stdout: 
+stderr: fatal: unable to access 'https://github.com/Valiantsin2021/AT_JS_HT3_Valiantsin_Lutchanka.git/': Could not resolve host: github.com
+
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:2674)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandWithCredentials(CliGitAPIImpl.java:2098)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.access$500(CliGitAPIImpl.java:84)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$1.execute(CliGitAPIImpl.java:618)
+	at jenkins.plugins.git.GitSCMFileSystem$BuilderImpl.build(GitSCMFileSystem.java:367)
+	at jenkins.scm.api.SCMFileSystem$Builder.build(SCMFileSystem.java:584)
+	at jenkins.scm.api.SCMFileSystem.of(SCMFileSystem.java:219)
+	at jenkins.scm.api.SCMFileSystem.of(SCMFileSystem.java:191)
+	at jenkins.scm.api.SCMFileSystem.of(SCMFileSystem.java:174)
+	at org.jenkinsci.plugins.workflow.cps.CpsScmFlowDefinition.create(CpsScmFlowDefinition.java:118)
+	at org.jenkinsci.plugins.workflow.cps.CpsScmFlowDefinition.create(CpsScmFlowDefinition.java:70)
+	at org.jenkinsci.plugins.workflow.job.WorkflowRun.run(WorkflowRun.java:311)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Finished: FAILURE
