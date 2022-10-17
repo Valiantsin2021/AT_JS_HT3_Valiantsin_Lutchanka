@@ -13,8 +13,9 @@ The Dropbox account under the test is created for the testing purposes only and 
 
 Run in Jenkins:
 
-5. To integrate with Jenkins and run from the CSM(GIT) - create new Pipeline and choose Pipeline definition "Pipeline script from CSM", repository url "https://github.com/Valiantsin2021/AT_JS_HT3_Valiantsin_Lutchanka.git", branch "master", Script Path "Jenkinsfile"
-6. To create and buld job locally - download and uzip this repository.
+1. To integrate with Jenkins and run from the CSM(GIT) - create new Pipeline and choose Pipeline definition "Pipeline script from CSM", repository url "https://github.com/Valiantsin2021/AT_JS_HT3_Valiantsin_Lutchanka.git", branch "master", Script Path "Jenkinsfile"
+
+2. To create and buld job locally - download and uzip this repository.
 - Open Jenkins and create new Freestyle project
 - In General seettings tab choose advanced > Use custom workspace > provide directory path where you unziped the repository.
 - Choose display name
@@ -22,7 +23,11 @@ Run in Jenkins:
 - In Build settings - choose Add build step > Execute Windows batch command > npm test.
 - In Post-build Actions - choose Publish HTML reports > HTML directory to archive - newman > Index page - index.html > Report title HTML Report
 - Save the job and click on Build now.
+- To see the HTML report click on HTML Report after the job build finished.
 
+To see GitHub Actions results:
+
+- Click on Actions > last workflow run > build > Run API tests
 
 Run in Newman:
 
