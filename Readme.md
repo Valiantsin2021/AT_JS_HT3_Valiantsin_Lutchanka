@@ -13,7 +13,7 @@ The Dropbox account under the test is created for the testing purposes only and 
 
 Run in Jenkins:
 
-### Screen record of pipeline and local job run on Jenkins server https://share.vidyard.com/watch/deggH7ipaVCLjDibRPNf6H?
+### Screen record of pipeline and local job run on Jenkins server https://share.vidyard.com/watch/E4RGuuS4oaGZCsBH6WSM7B?
 
 - Screen recording video uploaded to the repository
 
