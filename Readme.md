@@ -13,6 +13,10 @@ The Dropbox account under the test is created for the testing purposes only and 
 
 Run in Jenkins:
 
+### Screen record of pipeline and local job run on Jenkins server https://share.vidyard.com/watch/deggH7ipaVCLjDibRPNf6H?
+
+- Screen recording video uploaded to the repository
+
 1. To integrate with Jenkins and run from the CSM(GIT) - create new Pipeline and choose Pipeline definition "Pipeline script from CSM", repository url "https://github.com/Valiantsin2021/AT_JS_HT3_Valiantsin_Lutchanka.git", branch "master", Script Path "Jenkinsfile"
 
 2. To create and buld job locally - download and uzip this repository.
